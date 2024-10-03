@@ -100,13 +100,13 @@ The images directory are still empty. You need to download the images separately
 
 
 ## 🔥 Training
-The following are the training instructions for various datasets. Please set the ```${DATASETS}``` to previously configured datasets folder.
+The following are the training instructions for various datasets. Please set the ```${DATASETS}``` to previously configured datasets folder. You can specify the ```${SAVE_PATH}$``` to the model path you'd like to save to.
 
 **Training on MS-COCO:**
  You can adjust the noise ratio in the training set by changing ```${NOISE_RATIO}$```, which can be selected from the following values: [0.0, 0.2, 0.4, 0.5, 0.6].
 
 ```bash
-python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset coco --dataset_root ${DATASETS}$/MSCOCO --noise_ratio ${NOISE_RATIO}$
+python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset coco --dataset_root ${DATASETS}$/MSCOCO --checkpoint_path ${SAVE_PATH}$ --noise_ratio ${NOISE_RATIO}$
 ```
 
 **Training on Flickr30K:**
@@ -114,7 +114,7 @@ python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_
  You can adjust the noise ratio in the training set by changing ```${RATIO}$```, which can be selected from the following values: [0.0, 0.2, 0.4, 0.6].
 
 ```bash
-python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset f30k --dataset_root ${DATASETS}$/Flickr30K --noise_ratio ${NOISE_RATIO}$
+python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset f30k --dataset_root ${DATASETS}$/Flickr30K --checkpoint_path ${SAVE_PATH}$ --noise_ratio ${NOISE_RATIO}$
 ```
 
 **Training on CC120K:**
@@ -122,7 +122,7 @@ python main_clip.py --batch_size 256 --epochs 5 --lr 1e-5 --warmup 500 --vision_
 CC120K is a real-world noisy dataset, so the noise ratio is not need to be specified.
 
 ```bash
-python main_clip.py --batch_size 256 --epochs 10 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset cc --dataset_root ${DATASETS}$/CC120K
+python main_clip.py --batch_size 256 --epochs 10 --lr 1e-5 --warmup 500 --vision_model ViT-B/32 --dataset cc --dataset_root ${DATASETS}$/CC120K --checkpoint_path ${SAVE_PATH}$
 ```
 
 ## 📋 Evaluation
