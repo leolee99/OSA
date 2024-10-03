@@ -159,7 +159,7 @@ python main_clip.py --eval --vision_model ViT-B/32 --dataset cc --dataset_root $
 ## Reference
 If you found this work is useful for you, we appreciate that if you can cite the following paper:
 ```
-@inproceedings{PAU,
+@inproceedings{OSA,
   author    = {Hao Li and
                Jiayang Gu and
                Jingkuan Song and
