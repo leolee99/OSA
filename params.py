@@ -29,7 +29,7 @@ def parse_args():
     parser.add_argument(
         "--dataset_root",
         type=str,
-        default='/home/lihao/data/MSCOCO',
+        default='datasets/MSCOCO',
         help="Path to the dataset",
     )
     parser.add_argument('--train_clean', action='store_true', help="Default train on all samples.")
@@ -55,7 +55,7 @@ def parse_args():
     parser.add_argument(
         "--checkpoint_path",
         type=str,
-        default='/home/lihao/data/CLIP_UL/logs',
+        default='logs',
         help="Path to save the model",
     )
     parser.add_argument(
@@ -70,7 +70,7 @@ def parse_args():
     parser.add_argument(
         "--name",
         type=str,
-        default="CLIP_UL",
+        default="OSA",
         help="Optional identifier for the experiment when storing logs. Otherwise use current time.",
     )
     parser.add_argument(
