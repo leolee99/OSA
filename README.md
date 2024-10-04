@@ -163,8 +163,8 @@ If you found this work is useful for you, we appreciate that if you can cite the
   author    = {Hao Li and
                Jiayang Gu and
                Jingkuan Song and
-               Lianli Gao and
-               Heng Tao Shen},
+               An Zhang and
+               Lianli Gao},
   title     = {One-step Noisy Label Mitigation},
   booktitle = {arXiv},
   year      = {2024}
