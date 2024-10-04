@@ -166,7 +166,7 @@ If you found this work is useful for you, we appreciate that if you can cite the
                An Zhang and
                Lianli Gao},
   title     = {One-step Noisy Label Mitigation},
-  booktitle = {arXiv},
+  journal = {arXiv preprint: 2410.01944},
   year      = {2024}
 }
 ```
