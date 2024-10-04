@@ -27,7 +27,7 @@
 
 </div>
 
-The official implementation of the paper **"One-step Noisy Label Mitigation"**.
+The official implementation of the paper **"[One-step Noisy Label Mitigation](https://arxiv.org/pdf/2410.01944)"**.
 
 <p id="Preparations"></p>  
 
