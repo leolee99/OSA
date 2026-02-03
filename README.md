@@ -1,6 +1,6 @@
 <div align=center>
 
-<h1>One-step Noisy Label Mitigation</h1>
+<h1>Debiased Orthogonal Boundary-Driven Efficient Noise Mitigation</h1>
 
 
 <a href="LICENSE">
@@ -27,7 +27,7 @@
 
 </div>
 
-The official implementation of the paper **"[One-step Noisy Label Mitigation](https://arxiv.org/pdf/2410.01944)"**.
+The official implementation of the paper **"[Debiased Orthogonal Boundary-Driven Efficient Noise Mitigation](https://arxiv.org/pdf/2410.01944)"**.
 
 <p id="Preparations"></p>  
 
@@ -165,7 +165,7 @@ If you found this work is useful for you, we appreciate that if you can cite the
                Jingkuan Song and
                An Zhang and
                Lianli Gao},
-  title     = {One-step Noisy Label Mitigation},
+  title     = {Debiased Orthogonal Boundary-Driven Efficient Noise Mitigation},
   journal = {arXiv preprint: 2410.01944},
   year      = {2024}
 }
